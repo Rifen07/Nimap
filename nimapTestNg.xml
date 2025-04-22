@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="false" name="Suite">
+    <test name="Test">
+        <classes>
+            <class name="com.app.TestNG.nimaplogintestNg">
+             <methods>
+ 	<include name = "openDriver"></include>    
+ 	<include name = "openLogin"></include>    
+     <include name = "validSignin"></include>   
+ 	<include name = "validateUserLogin"></include>
+ 	<include name = "openNewTab"></include>
+ 	<include name = "invalidSignin"></include>    
+ 	
+      </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
